@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(168, 153, 2555);
+  }
+
+div.mainBox{
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  position: absolute;
+  left: 45%;
+  top: 25%;
+  padding: 25px;
+}
+
+div.textBox{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: larger;
+  white-space: nowrap;
+}
+
+a.games{
+padding: 5px;
+flex-direction: row;
+}
+
+div.flexColumn{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+div.flexRow{
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
